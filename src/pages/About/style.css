@@ -1,0 +1,76 @@
+.about-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.header{
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.header h1{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.header-menu{
+    width: 60%;
+}
+.yellow-line{
+    width: 50px;
+    height: 5px;
+    border-radius: 3px;
+    background-color: #EBCC8C;
+    margin-bottom: 20px;
+}
+.about-content{
+    margin-top: 20px;
+    padding: 0 20px;
+}
+.about-info p{
+    font-size: 15px;
+    color: rgb(204, 204, 204);
+}
+
+/* .about-work */
+.about-work{
+    width: 100%;
+}
+.about-work h2{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 25px 0;
+}
+.about-work ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.about-work li{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    background-color: var(--page-bg);
+    box-shadow: 0px 5px 16px 0px rgba(247, 247, 248, 0.1);
+    padding: 35px 25px ;
+    border-radius: 15px;
+}
+.about-work li > div:nth-child(1){
+    color: #EBCC8C;
+    font-size: 30px;
+}
+.about-work li > div:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.about-work li > div h3{
+    font-size: 20px;
+    font-weight: 500;
+}
+.about-work li > div p{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(204, 204, 204);
+}

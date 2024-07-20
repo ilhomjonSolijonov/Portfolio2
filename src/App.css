@@ -1,11 +1,26 @@
 .app-box{
-  
-  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app-container{
+  position: relative;
+  max-width: 1200;
+  margin-top: 20px;
+  width: 90%;
   display: grid;
   grid-template-columns: 380px 1fr ;
   gap: 25px;
+  margin-bottom: 20px;
 }
 .app-content{
+  top: 20px;
+  position: sticky;
   background-color: var(--page-bg);
   border-radius: 25px;
+  height: calc(100vh - 40px);
+  overflow: auto;
+}
+.app-content::-webkit-scrollbar{
+  display: none;
 }
