@@ -7,6 +7,8 @@ import { CiMobile3 } from "react-icons/ci";
 import { FaFacebookF } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+// images
+import Avatar from '../../assets/avatar.png'
 
 
 const index = () => {
@@ -14,7 +16,7 @@ const index = () => {
     <div className='navbar'>
         <div className='navbar-container'>
             <div className='navbar_img-box'>
-
+                <img src={Avatar} alt="img avatar" />
             </div>
             <h1 className='navbar-title'>Ilhomjon Solijonov</h1>
             <div className='navbar-job'>
@@ -22,15 +24,6 @@ const index = () => {
             </div>
             <hr />
             <ul className='navbar-lists'>
-                <li className='navbar-list'>
-                    <div className='navbar-icon'>
-                        <MdOutlineEmail />
-                    </div>
-                    <div className='navbar-list-text'>
-                        <h2 className='navbar-list_key'>Email</h2>
-                        <a href='https://gmail.com' className='navbar-list_value'>ilhomjonsolijonov843 <br /> @gmail.com</a>
-                    </div>
-                </li>
                 <li className='navbar-list'>
                     <div className='navbar-icon'>
                         <CiMobile3 />
@@ -56,6 +49,15 @@ const index = () => {
                     <div className='navbar-list-text'>
                         <h2 className='navbar-list_key'>Location</h2>
                         <a href='#' className='navbar-list_value'>Toshkent, Uzbekistan</a>
+                    </div>
+                </li>
+                <li className='navbar-list'>
+                    <div className='navbar-icon'>
+                        <MdOutlineEmail />
+                    </div>
+                    <div className='navbar-list-text'>
+                        <h2 className='navbar-list_key'>Email</h2>
+                        <a href='https://gmail.com' className='navbar-list_value'>ilhomjonsolijonov843 <br /> @gmail.com</a>
                     </div>
                 </li>
             </ul>  
