@@ -17,6 +17,7 @@ const index = () => {
         </div>
       </header>
       <main className='about-content'>
+        <div className='yellow-line'></div>
         <section className='resume-info'>
           <div className='resume-info-title-box'>
               <div className='resume-info-icon'><FaBook /></div>

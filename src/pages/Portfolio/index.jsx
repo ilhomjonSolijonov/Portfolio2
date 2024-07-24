@@ -35,6 +35,7 @@ const FilterAll = ()=> {
         </div>
       </header>
       <main className='about-content'>
+        <div className='yellow-line'></div>
         <ul className='portfolio-menu'>
           <li onClick={FilterAll}>
             <NavLink>All</NavLink>
