@@ -1,0 +1,127 @@
+.resume-info-title-box{
+    display: flex;
+    align-items: start;
+    width: 100%;
+    margin: 20px 0;
+}
+.resume-info-icon{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    font-size: 22px;
+}
+.resume-info-title{
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+.resume-card-left{
+    width: 50px;
+    display: flex;
+    justify-content: center;
+}
+.resume-card{
+    height: auto;
+    display: flex;
+}
+.resume-left-indicator{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #EBCC8C;
+}
+.resume-left-hr{
+    width: 1px;
+    height: 100%;
+    background-color: white;
+}
+.resume-card-right{
+    padding: 0 0 20px 0;
+    width: calc(100% - 50px);
+}
+.resume-card-title{
+    font-weight: 500;
+    font-size: 17px;
+}
+.resume-card-year{
+    padding:5px 0;
+    font-size: 14px;
+    color: rgb(204, 204, 204);
+}
+.resume-card-p{
+    font-size: 14px;
+    font-weight: 400;
+}
+.resume-card:nth-child(7) .resume-card-left  .resume-left-hr{
+    display: none;
+}
+/*  skills */
+.resume-skills-title{
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    margin: 10px 0 15px;
+}
+.resume-skills{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    background-color: var(--page-bg);
+    box-shadow: 0px 5px 16px 0px rgba(247, 247, 248, 0.1);
+    margin-bottom: 40px;
+}
+.skills-card-title{
+    font-size: 14px;
+    font-weight: 500;
+}
+.skills-card-title span{
+    font-size: 11px;
+    color: rgb(204, 204, 204);
+}
+.skills-range{
+    position: relative;
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    height: 10px;
+    background-color: var(--component-bg);
+}
+.skills-range span{
+    position: absolute;
+    width: 95%;
+    height: 100%;
+    background-color: #EBCC8C;
+}
+.skills-card:nth-child(2) .skills-range span{
+    width: 90%;
+}
+.skills-card:nth-child(3) .skills-range span{
+    width: 90%;
+}
+.skills-card:nth-child(4) .skills-range span{
+    width: 75%;
+}
+.skills-card:nth-child(5) .skills-range span{
+    width: 88%;
+}
+.skills-card:nth-child(6) .skills-range span{
+    width: 90%;
+}
+.skills-card:nth-child(7) .skills-range span{
+    width: 70%;
+}
+.skills-card:nth-child(8) .skills-range span{
+    width: 80%;
+}
+.skills-card:nth-child(9) .skills-range span{
+    width: 70%;
+}
+.skills-card:nth-child(10) .skills-range span{
+    width: 70%;
+}
+
