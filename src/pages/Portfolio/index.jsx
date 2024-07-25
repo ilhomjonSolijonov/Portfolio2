@@ -53,7 +53,10 @@ const FilterAll = ()=> {
         <section className='portfolio-content'>
             {filterDat.map(item => (
                 <a href={item.link} className='portfolio-card' key={item.id}>
-                  <img src={item.img} alt="" />
+                  <div>
+                    <img src={item.img} alt="" />
+                    <div className='portfolio-card-filter'></div>
+                  </div>
                   <h2>{item.name}</h2>
                   <p>{item.category}</p>
                 </a>
