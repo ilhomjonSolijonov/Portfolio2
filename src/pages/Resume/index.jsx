@@ -29,9 +29,9 @@ const index = () => {
                 <div className='resume-left-hr'></div>
             </div>
             <div className='resume-card-right'>
-              <h3 className='resume-card-title'>IT School in Tashkent</h3>
+              <h3 className='resume-card-title'>IT School in Namangan</h3>
               <span className='resume-card-year'>2021 - 2022</span>
-              <p className='resume-card-p'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur libero suscipit impedit! Voluptatibus illo maxime eveniet id fugit quasi laboriosam expedita odit modi dolores deserunt ipsa, laudantium sapiente totam labore magnam.</p>
+              <p className='resume-card-p'>I studied at the Namangan It School Programming Center for 1 year, And I learned a lot from them mainly FrontEnd but also Python NodeJs in beginer level.</p>
             </div>
           </div>
           <div className='resume-card'>
@@ -42,7 +42,7 @@ const index = () => {
             <div className='resume-card-right'>
               <h3 className='resume-card-title'>British Management University in Tashkent</h3>
               <span className='resume-card-year'>2023 - 2027</span>
-              <p className='resume-card-p'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur libero suscipit impedit! Voluptatibus illo maxime eveniet id fugit quasi laboriosam expedita odit modi dolores deserunt ipsa, laudantium sapiente totam labore magnam.</p>
+              <p className='resume-card-p'>Currently, I have completed the 1st year of the British Management University, BMU is one of the leading universities in Uzbekistan, which provides maximum facilities and benefits.</p>
             </div>
           </div>
           <div className='resume-info-title-box'>
@@ -54,11 +54,7 @@ const index = () => {
               <div className='resume-left-indicator'></div>
               <div className='resume-left-hr'></div>
           </div>
-          <div className='resume-card-right'>
-            <h3 className='resume-card-title'>IT School in Tashkent</h3>
-            <span className='resume-card-year'>2021 - 2022</span>
-            <p className='resume-card-p'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur libero suscipit impedit! Voluptatibus illo maxime eveniet id fugit quasi laboriosam expedita odit modi dolores deserunt ipsa, laudantium sapiente totam labore magnam.</p>
-          </div>
+          
           </div>
           <div className='resume-card'>
             <div className='resume-card-left'>
@@ -68,7 +64,7 @@ const index = () => {
             <div className='resume-card-right'>
               <h3 className='resume-card-title'>iTeam</h3>
               <span className='resume-card-year'>2022 - 2023</span>
-              <p className='resume-card-p'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur libero suscipit impedit! Voluptatibus illo maxime eveniet id fugit quasi laboriosam expedita odit modi dolores deserunt ipsa, laudantium sapiente totam labore magnam.</p>
+              <p className='resume-card-p'>This team is one of the best and most supportive I've ever worked with.</p>
             </div>
           </div>
           <div className='resume-card'>
@@ -79,7 +75,7 @@ const index = () => {
             <div className='resume-card-right'>
               <h3 className='resume-card-title'>Apinline</h3>
               <span className='resume-card-year'>2024 - 2024 July</span>
-              <p className='resume-card-p'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur libero suscipit impedit! Voluptatibus illo maxime eveniet id fugit quasi laboriosam expedita odit modi dolores deserunt ipsa, laudantium sapiente totam labore magnam.</p>
+              <p className='resume-card-p'>This team is one of the best and most supportive I've ever worked with, and I've experienced some big projects here.</p>
             </div>
           </div>
         </section>
